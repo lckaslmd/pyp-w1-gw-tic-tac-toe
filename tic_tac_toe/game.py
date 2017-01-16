@@ -83,7 +83,7 @@ def start_new_game(player1, player2):
     Creates and returns a new game configuration.
     """
     return { 'player1': player1, 'player2': player2,
-             'board': [['-', '-', '-'] for _ in range(3)], 'next_turn': player1,
+             'board': [ ['-', '-', '-'] for _ in range(3) ], 'next_turn': player1,
              'winner': None
            }
 
